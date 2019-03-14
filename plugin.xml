@@ -40,9 +40,7 @@
 	
     <!-- ANDROID CONFIGURATION -->
     <platform name="android">
-	    <preference name="PLAY_SERVICES_VERSION" default="11.4.2"/>
-    <framework src="com.google.android.gms:play-services-auth:$PLAY_SERVICES_VERSION" />
-    <framework src="com.google.android.gms:play-services-identity:$PLAY_SERVICES_VERSION" />
+	
 		<config-file target="AndroidManifest.xml" parent="/manifest/application">
 			<activity android:exported="true" android:name="com.gae.scaffolder.plugin.FCMPluginActivity" android:launchMode="singleTop">
 				<intent-filter>   
